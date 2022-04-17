@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div id="main-page">
+      <div id="users">
+        <h3>Available Users</h3>
+      </div>
+      <div>
+        <div id="messages"></div>
+        <form id="form" action="">
+          <input type="text" id="input" autocomplete="off" />
+          <button type="submit" id="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
